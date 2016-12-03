@@ -7,8 +7,8 @@ string_insert <- function(a, b, pos) {
     stop("`a` and `b` must be a single string")
   }
 
-  if (class(pos) != "integer") {
-    stop("The class of `pos` must be integer")
+  if (class(pos) != "integer" || pos < 0) {
+    stop("`pos` must be positive integer")
   }
 
   if (pos > stringr::str_length(a)) {
