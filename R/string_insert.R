@@ -1,7 +1,4 @@
 string_insert <- function(a, b, pos) {
-  stopifnot(class(a) == "character" && class(b) == "character")
-  stopifnot(length(a) == 1 && length(b) == 1)
-
   if (class(a) != "character" || class(b) != "character") {
     stop("The class of `a` and `b` must be character")
   }
