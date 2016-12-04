@@ -1,3 +1,15 @@
+#' Replace a substring between two given positions in a string with another string
+#'
+#' @param a character
+#' @param b character
+#' @param startPos integer
+#' @param endPos integer
+#'
+#' @return character
+#' @export
+#'
+#' @examples
+#'#' string_replace("apple banana pear", "peach", as.integer(7), as.integer(12))
 string_replace <- function(a, b, startPos, endPos) {
   if (class(a) != "character" || class(b) != "character") {
     stop("The class of `a` and `b` must be character")
