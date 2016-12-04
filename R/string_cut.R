@@ -1,3 +1,14 @@
+#' Cut a substring between two given positions from a string
+#'
+#' @param a string
+#' @param startPos integer
+#' @param endPos integer
+#'
+#' @return string
+#' @export
+#'
+#' @examples
+#'#' string_cut("apple banana pear", as.integer(7), as.integer(13))
 string_cut <- function(a, startPos, endPos) {
   if (class(a) != "character") {
     stop("The class of `a` must be character")
