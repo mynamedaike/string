@@ -1,3 +1,14 @@
+#' Insert a string to another string at a given position
+#'
+#' @param a string
+#' @param b string
+#' @param pos integer
+#'
+#' @return string
+#' @export
+#'
+#' @examples
+#'#' string_insert("apple pear", "banana ", as.integer(6))
 string_insert <- function(a, b, pos) {
   if (class(a) != "character" || class(b) != "character") {
     stop("The class of `a` and `b` must be character")
