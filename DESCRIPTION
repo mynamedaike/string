@@ -19,3 +19,5 @@ Suggests: testthat,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/mynamedaike/string
+BugReports: https://github.com/mynamedaike/string/issues
