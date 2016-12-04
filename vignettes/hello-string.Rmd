@@ -1,0 +1,41 @@
+---
+title: "string"
+author: "Ke Dai"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    keep_md: true
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package is complementary to stringr package. It includes three functions: `string_insert`, `string_cut` and `string_replace`. `string_insert` inserts a string to another string at a given position. `string_cut` cuts a substring between two given positions from a string. `string_replace` replaces a substring between two given positions in a string with another string.
+
+`string_insert`
+```{r}
+a <- "apple pear "
+b <- "banana "
+string_insert(a, b, as.integer(0))
+string_insert(a, b, as.integer(6))
+string_insert(a, b, as.integer(11))
+```
+
+`string_cut`
+```{r}
+a <- "apple banana pear "
+string_cut(a, as.integer(1), as.integer(6))
+string_cut(a, as.integer(7), as.integer(13))
+string_cut(a, as.integer(14), as.integer(18))
+```
+
+`string_replace`
+```{r}
+a <- "apple banana pear "
+b <- "orange"
+string_replace(a, b, as.integer(1), as.integer(5))
+string_replace(a, b, as.integer(7), as.integer(12))
+string_replace(a, b, as.integer(14), as.integer(17))
+```
