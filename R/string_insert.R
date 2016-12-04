@@ -1,10 +1,10 @@
 #' Insert a string to another string at a given position
 #'
-#' @param a string
-#' @param b string
+#' @param a character
+#' @param b character
 #' @param pos integer
 #'
-#' @return string
+#' @return character
 #' @export
 #'
 #' @examples
