@@ -3,7 +3,7 @@ Title: Make String Processing Easier
 Version: 0.0.0.9000
 Authors@R: person("Ke", "Dai", email = "kedai@ece.ubc.ca", role = c("aut", "cre"))
 Description: This package is complementary to stringr package. It includes
-    thress functions: string_insert, string_cut and string_replace. string_insert
+    three functions: string_insert, string_cut and string_replace. string_insert
     inserts a string to another string at a given position. string_cut cuts a
     substring between two given positions from a string. string_replace replaces a
     substring between two given positions in a string with another string.
@@ -15,3 +15,4 @@ LazyData: true
 Imports:
     stringr
 RoxygenNote: 5.0.1
+Suggests: testthat
