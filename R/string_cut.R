@@ -25,7 +25,7 @@ string_cut <- function(a, startPos, endPos) {
   }
 
   if (startPos > stringr::str_length(a)) {
-    stop("startPos must be less than or equal to the number of characters in a")
+    stop("`startPos` must be less than or equal to the number of characters in `a`")
   }
 
   if (class(endPos) != "integer" || endPos < 1) {
@@ -33,11 +33,11 @@ string_cut <- function(a, startPos, endPos) {
   }
 
   if (endPos > stringr::str_length(a)) {
-    stop("endPos must be less than or equal to the number of characters in a")
+    stop("`endPos` must be less than or equal to the number of characters in `a`")
   }
 
   if (startPos > endPos) {
-    stop("startPos must be less than or equal to endPos")
+    stop("`startPos` must be less than or equal to `endPos`")
   }
 
   formerSub <- stringr::str_sub(a, 1, startPos - 1)

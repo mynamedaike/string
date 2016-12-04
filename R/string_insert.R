@@ -25,7 +25,7 @@ string_insert <- function(a, b, pos) {
   }
 
   if (pos > stringr::str_length(a)) {
-    stop("pos must be less than or equal to the number of characters in a")
+    stop("`pos` must be less than or equal to the number of characters in `a`")
   }
 
   formerSub <- stringr::str_sub(a, 1, pos)
