@@ -19,7 +19,7 @@ Import string library
 library(string)
 ```
 
-`string_insert`
+string_insert
 ```{r}
 a <- "apple pear "
 b <- "banana "
@@ -28,7 +28,7 @@ string_insert(a, b, as.integer(6))
 string_insert(a, b, as.integer(11))
 ```
 
-`string_cut`
+string_cut
 ```{r}
 a <- "apple banana pear "
 string_cut(a, as.integer(1), as.integer(6))
@@ -36,7 +36,7 @@ string_cut(a, as.integer(7), as.integer(13))
 string_cut(a, as.integer(14), as.integer(18))
 ```
 
-`string_replace`
+string_replace
 ```{r}
 a <- "apple banana pear "
 b <- "orange"
