@@ -1,10 +1,10 @@
 #' Cut a substring between two given positions from a string
 #'
-#' @param a string
+#' @param a character
 #' @param startPos integer
 #' @param endPos integer
 #'
-#' @return string
+#' @return character
 #' @export
 #'
 #' @examples
