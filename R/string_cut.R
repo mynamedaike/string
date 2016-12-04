@@ -1,3 +1,5 @@
+#' Cut a substring from a string
+#'
 #' Cut a substring between two given positions from a string
 #'
 #' @param a character

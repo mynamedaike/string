@@ -1,3 +1,5 @@
+#' Replace a substring in a string with another string
+#'
 #' Replace a substring between two given positions in a string with another string
 #'
 #' @param a character

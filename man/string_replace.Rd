@@ -2,7 +2,7 @@
 % Please edit documentation in R/string_replace.R
 \name{string_replace}
 \alias{string_replace}
-\title{Replace a substring between two given positions in a string with another string}
+\title{Replace a substring in a string with another string}
 \usage{
 string_replace(a, b, startPos, endPos)
 }

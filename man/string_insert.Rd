@@ -2,7 +2,7 @@
 % Please edit documentation in R/string_insert.R
 \name{string_insert}
 \alias{string_insert}
-\title{Insert a string to another string at a given position}
+\title{Insert a string to another string}
 \usage{
 string_insert(a, b, pos)
 }

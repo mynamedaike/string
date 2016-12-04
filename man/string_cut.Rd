@@ -2,7 +2,7 @@
 % Please edit documentation in R/string_cut.R
 \name{string_cut}
 \alias{string_cut}
-\title{Cut a substring between two given positions from a string}
+\title{Cut a substring from a string}
 \usage{
 string_cut(a, startPos, endPos)
 }

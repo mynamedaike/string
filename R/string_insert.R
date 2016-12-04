@@ -1,3 +1,5 @@
+#' Insert a string to another string
+#'
 #' Insert a string to another string at a given position
 #'
 #' @param a character
